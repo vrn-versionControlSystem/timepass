@@ -14,12 +14,20 @@ public class MainController {
 		return "home";
 	}
 
-	@RequestMapping("/contact")
-	public String getContact()
+	@RequestMapping("/a")
+	public String geta()
 	{
 		System.out.println("This is Contact page...");
 		
 		return "contact";
+	}
+	
+	@RequestMapping("/b")
+	public String getb()
+	{
+		System.out.println("This is b page...");
+		
+		return "b";
 	}
 	
 }
