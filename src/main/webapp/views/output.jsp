@@ -19,6 +19,9 @@
 	<p>This name is send to second page by using session method</p>
 	<a href="session1">Send to Session JSP page</a>
 	
+	<%@ page import="java.util.Date" %>
+	Today is: <%= new Date()  %>
+	
 	
 </body>
 </html>
