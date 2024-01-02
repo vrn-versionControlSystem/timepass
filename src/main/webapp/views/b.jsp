@@ -15,14 +15,17 @@
 		String name="Jath";
 		int in=name.length();
 		
-		int squre(int n)
+		int square(int n)
 		{
 			return n*n;
 		}
 	%>
 	<h1>
 	village :<%= name  %> have <%= in %> character Length.
-	and there Squre is <%= squre(2) %>
+	and there Squre is <%= square(2) %>
+	
+	<%= square(10) %>
+	 
 	</h1>
     </div>
 

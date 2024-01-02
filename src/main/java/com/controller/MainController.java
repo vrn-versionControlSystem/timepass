@@ -30,4 +30,27 @@ public class MainController {
 		return "b";
 	}
 	
+	@RequestMapping("/form")
+	public String getForm()
+	{
+		System.out.println("This is Form page...");
+		
+		return "form";
+	}
+	@RequestMapping("/output")
+	public String getOutput()
+	{
+		System.out.println("This is Output page...");
+		
+		return "output";
+	}
+	
+	@RequestMapping("/session1")
+	public String getSession1()
+	{
+		System.out.println("This is Session1 page...");
+		
+		return "session1";
+	}
+	
 }
